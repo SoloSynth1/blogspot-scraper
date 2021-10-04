@@ -3,6 +3,7 @@ from crawler.utils import dump_json, extract_domain
 import os
 import time
 
+
 class BlogspotCrawler:
     def __init__(self, url=None):
         self.posts_window = 100
